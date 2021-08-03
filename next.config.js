@@ -6,7 +6,7 @@ module.exports = {
       {
         source: '/vaping-wiki/:match*',
         destination: 'https://blog.180smoke.ca/:match*', // Matched parameters can be used in the destination
-        permanent: false
+        permanent: true
       }
     ];
   },
